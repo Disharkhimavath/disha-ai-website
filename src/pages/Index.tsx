@@ -8,7 +8,7 @@ import EducationSection from '@/components/sections/EducationSection';
 import SkillsSection from '@/components/sections/SkillsSection';
 import ProjectsSection from '@/components/sections/ProjectsSection';
 import ContactSection from '@/components/sections/ContactSection';
-import ChatbotWidget from '@/components/ChatbotWidget';
+import ChatbotBubble from '@/components/ChatbotBubble';
 
 const Index = () => {
   return (
@@ -25,7 +25,7 @@ const Index = () => {
       </main>
       
       <Footer />
-      <ChatbotWidget />
+      <ChatbotBubble />
     </div>
   );
 };
